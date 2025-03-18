@@ -1,4 +1,4 @@
-# Gradle Composite Build with `mustRunAfter`
+# Gradle Composite Build with `mustRunAfter` not working as expected
 
 `build.gradle.kts` in the root project has:
 
