@@ -13,7 +13,6 @@ repositories {
 tasks.register("checkDist") {
     dependsOn(gradle.includedBuild("build-tests").task(":test"))
     mustRunAfter("assemble")
-
 }
 
 tasks.check {
